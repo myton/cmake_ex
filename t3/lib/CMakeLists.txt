@@ -1,0 +1,3 @@
+set(LIBHELLO_SRC hello.c)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+add_library(hello SHARED ${LIBHELLO_SRC})

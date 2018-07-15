@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.5)
 project(HELLOLIB)
-set(LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
-message(status "PROJECT_SOURCE_DIR: " ${PROJECT_SOURCE_DIR})
-add_subdirectory(lib ${LIB_DIR})
+message(STATUS " PROJECT_SOURCE_DIR: " ${PROJECT_SOURCE_DIR})
+add_subdirectory(lib)
